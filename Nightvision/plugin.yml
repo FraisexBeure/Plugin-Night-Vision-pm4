@@ -1,0 +1,19 @@
+name: NightVision
+author: _MaTRaX_
+version: 1.0.0
+api: 4.0.0
+main: nightvision\Main
+
+commands:
+  nightvision:
+    usage: /nightvision
+    description: "Permet de voir dans la nuit !"
+    permission: nightvision.cmd
+    aliases:
+      - "nv"
+      - "nuit"
+
+
+permissions:
+  nightvision.cmd:
+    default: true
